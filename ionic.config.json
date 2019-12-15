@@ -1,8 +1,7 @@
 {
-  "name": "NoodaApp",
-  "app_id": "",
-  "type": "ionic-angular",
+  "name": "yaapp",
   "integrations": {
     "cordova": {}
-  }
+  },
+  "type": "ionic-angular"
 }
