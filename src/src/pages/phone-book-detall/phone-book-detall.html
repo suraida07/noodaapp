@@ -1,0 +1,25 @@
+<!--
+  Generated template for the PhoneBookDetallPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{contact.name}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div align ="center">
+  <ion-avatar item-left>  
+    <img src="{{contact.imageUrl}}"  height="300px">
+  </ion-avatar>  
+  <br>
+   <button ion-button color="secondary" round (click)="call()">
+     <ion-icon name="call"> &nbsp; &nbsp; Call : {{contact.telephone}}</ion-icon>
+   </button>
+   <br>
+  </div>
+
+</ion-content>
